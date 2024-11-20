@@ -1,0 +1,15 @@
+fieldset{
+    display: inline-flex;
+}
+
+label{
+    color: black;
+}
+
+fieldset + fieldset{
+    display: none;
+}
+
+fieldset:valid + fieldset{
+    display: block;
+}

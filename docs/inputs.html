@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulieren</title>
+        <link rel="stylesheet" href="inputs.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Welke kies jij?</legend>
+                <input type="checkbox" name="Optie 1" id="Optie 1" required>
+                <label for="Optie 1">Optie 1</label>
+
+                <input type="checkbox" name="Optie 2" id="Optie 2" required>
+                <label for="Optie 2">Optie 2</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Welke tekst</legend>
+                <label for="tekst">tekst:</label>
+                <input type="text" name="tekst" id="tekst" 
+                minlength="4" max="16" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Welke tekst</legend>
+                <input type="range" name="slider" id="slider" required>
+            </fieldset>
+        </form>
+    </body>
+</html>
