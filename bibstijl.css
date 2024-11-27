@@ -1,0 +1,22 @@
+body {
+    font-family: var(--font-text);
+}
+
+h1{
+    font-family: var(--font-text-bold);
+    color: var(--text-color-1);
+    font-size: var(--font-size-x-large);
+}
+
+h2{
+    font-family: var(--font-text-bold);
+
+}
+
+h3{
+    font-family: var(--font-size-medium);
+}
+
+p{
+    font-family: var(--font-text-small);
+}
